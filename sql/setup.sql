@@ -3,11 +3,11 @@
 
 DROP table if exists cats;
 
-CREATE TABLE cats (
+CREATE table cats (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     age INT NOT NULL
-)
+);
 
 INSERT INTO cats (name, age) VALUES
 ('James Corden', 43),
